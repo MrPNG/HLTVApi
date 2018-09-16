@@ -1,5 +1,6 @@
 package me.mrpingu.hltvapi
 
+import com.github.salomonbrys.kotson.fromJson
 import com.google.gson.GsonBuilder
 import com.google.gson.JsonParser
 import com.google.gson.annotations.SerializedName
@@ -27,13 +28,25 @@ object HLTVScoreBotApi: WebSocketListener() {
 		private val readyForMatch = """42["readyForMatch","{\"token\":\"\",\"listId\":\"%s\"}"]"""
 		
 		override fun onMessage(webSocket: WebSocket, text: String) {
+			
 			if (text.startsWith("42")) {
-				val json = text.drop(2)
+				val json = text.drop(2).remove("\\")
 				val type = json.split("\"")[1]
 				
 				when (type) {
-					"log"        -> gson.fromJson<Log>(json).printlnSelf()
-					"scoreboard" -> gson.fromJson<Scoreboard>(json).printlnSelf()
+					"log"        -> {
+						val log = gson.fromJson<Log>(json.drop(15).dropLast(3))
+						
+						log.asSequence()
+								.filter { it.logEvent() is Kill }
+								.map { it.logEvent() as Kill }
+								.map { it.weapon }
+								.toHashSet()
+								.printlnSelf()
+					}
+					"scoreboard" -> {
+						val scoreboard = gson.fromJson<Scoreboard>(json.drop(14).dropLast())
+					}
 				}
 			} else when (++message) {
 				1 -> {
@@ -63,7 +76,7 @@ enum class Side(private val string: String) {
 	override fun toString() = string
 }
 
-enum class WinType(private val string: String) {
+enum class Result(private val string: String) {
 	
 	@SerializedName("CTs_Win")
 	TERRORISTS_ELIMINATED("Terrorists eliminated"),
@@ -89,7 +102,7 @@ data class RoundEnd(
 		val counterTerroristScore: Int,
 		val terroristScore: Int,
 		val winner: Side,
-		val winType: WinType): LogEvent()
+		@SerializedName("winType") val result: Result): LogEvent()
 
 data class Kill(
 		val killerName: String,
@@ -114,20 +127,20 @@ data class PlayerJoin(val playerName: String, val playerNick: String): LogEvent(
 data class PlayerQuit(val playerName: String, val playerNick: String, val playerSide: Side): LogEvent()
 
 data class WrappedLogEvent(
-		@SerializedName("MatchStarted") val matchStarted: MatchStarted?,
-		@SerializedName("RoundStart") val roundStart: RoundStart?,
-		@SerializedName("RoundEnd") val roundEnd: RoundEnd?,
-		@SerializedName("Kill") val kill: Kill?,
-		@SerializedName("BombPlanted") val bombPlanted: BombPlanted?,
-		@SerializedName("BombDefused") val bombDefused: BombDefused?,
-		@SerializedName("PlayerJoin") val playerJoin: PlayerJoin?,
-		@SerializedName("PlayerQuit") val playerQuit: PlayerQuit?) {
+		@SerializedName("MatchStarted") private val matchStarted: MatchStarted?,
+		@SerializedName("RoundStart") private val roundStart: RoundStart?,
+		@SerializedName("RoundEnd") private val roundEnd: RoundEnd?,
+		@SerializedName("Kill") private val kill: Kill?,
+		@SerializedName("BombPlanted") private val bombPlanted: BombPlanted?,
+		@SerializedName("BombDefused") private val bombDefused: BombDefused?,
+		@SerializedName("PlayerJoin") private val playerJoin: PlayerJoin?,
+		@SerializedName("PlayerQuit") private val playerQuit: PlayerQuit?) {
 	
 	fun logEvent() =
 			(matchStarted ?: roundStart ?: roundEnd ?: kill ?: bombPlanted ?: bombDefused ?: playerJoin ?: playerQuit)!!
 }
 
-data class Log(val log: List<WrappedLogEvent>)
+typealias Log = List<WrappedLogEvent>
 
 data class AdvancedStats(
 		val kast: Int,
@@ -156,13 +169,13 @@ data class Player(
 
 data class Round(
 		val roundOrdinal: Int,
-		val winType: WinType,
+		@SerializedName("type") val result: Result,
 		@SerializedName("survivingPlayers") val playersAlive: Int)
 
 data class MatchHistory(val firstHalf: List<Round>, val secondHalf: List<Round>)
 
 data class Scoreboard(
-		val map: Map,
+		@SerializedName("mapName") val map: Map,
 		@SerializedName("ctTeamId") val counterTerroristTeamId: Int,
 		@SerializedName("tTeamId") val terroristTeamId: Int,
 		@SerializedName("ctTeamName") val counterTerroristTeamName: String,

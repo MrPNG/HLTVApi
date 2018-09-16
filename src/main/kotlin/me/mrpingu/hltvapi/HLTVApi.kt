@@ -18,16 +18,13 @@ object HLTVApi {
 	private fun document(url: String) = Jsoup.connect(url).userAgent(userAgent).get()
 	
 	fun ongoingEvents() =
-			parseOngoingEvents(document("${baseUrl}events").select(
-					"div.events-holder a[href].big-event"))
+			parseOngoingEvents(document("${baseUrl}events").select("#ALL a[href].ongoing-event"))
 	
 	fun upcomingBigEvents() =
-			parseUpcomingBigEvents(document("${baseUrl}events").select(
-					"div.events-holder a[href].big-event"))
+			parseUpcomingBigEvents(document("${baseUrl}events").select("div.events-holder a[href].big-event"))
 	
 	fun upcomingSmallEvents() =
-			parseUpcomingSmallEvents(document("${baseUrl}events").select(
-					"div.events-holder a[href].big-event"))
+			parseUpcomingSmallEvents(document("${baseUrl}events").select("div.events-holder a[href].small-event"))
 	
 	private fun Element.extractUrl() = baseUrl + href().dropFirst()
 	

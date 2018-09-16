@@ -5,7 +5,7 @@ import com.google.gson.GsonBuilder
 val gson = GsonBuilder().setPrettyPrinting().create()
 
 fun main(args: Array<String>) {
-	HLTVScoreBotApi.scoreBot(2326677)
+	HLTVScoreBotApi.scoreBot(2326418)
 	
 	/*val liveMatches = me.mrpingu.hltvapi.HLTVApi.liveMatches()
 	
