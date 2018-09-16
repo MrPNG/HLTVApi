@@ -1,0 +1,859 @@
+{
+  "id": 3885,
+  "name": "FACEIT Major 2018 Main Qualifier",
+  "url": "https://www.hltv.org/events/3885/faceit-major-2018-main-qualifier",
+  "startTimestamp": 1536141600000,
+  "endTimestamp": 1536487200000,
+  "prize": {
+    "standard": false,
+    "special": "8 spots at FACEIT Major 2018",
+    "distribution": [
+      {
+        "placement": [
+          1,
+          2
+        ],
+        "team": {
+          "id": 4411,
+          "name": "NiP",
+          "url": "https://www.hltv.org/team/4411/nip",
+          "country": "Sweden"
+        },
+        "special": "FACEIT Major 2018"
+      },
+      {
+        "placement": [
+          1,
+          2
+        ],
+        "team": {
+          "id": 5973,
+          "name": "Liquid",
+          "url": "https://www.hltv.org/team/5973/liquid",
+          "country": "North America"
+        },
+        "special": "FACEIT Major 2018"
+      },
+      {
+        "placement": [
+          3,
+          4,
+          5
+        ],
+        "team": {
+          "id": 5005,
+          "name": "compLexity",
+          "url": "https://www.hltv.org/team/5005/complexity",
+          "country": "North America"
+        },
+        "special": "FACEIT Major 2018"
+      },
+      {
+        "placement": [
+          3,
+          4,
+          5
+        ],
+        "team": {
+          "id": 5310,
+          "name": "HellRaisers",
+          "url": "https://www.hltv.org/team/5310/hellraisers",
+          "country": "World"
+        },
+        "special": "FACEIT Major 2018"
+      },
+      {
+        "placement": [
+          3,
+          4,
+          5
+        ],
+        "team": {
+          "id": 6665,
+          "name": "Astralis",
+          "url": "https://www.hltv.org/team/6665/astralis",
+          "country": "Denmark"
+        },
+        "special": "FACEIT Major 2018"
+      },
+      {
+        "placement": [
+          6,
+          7,
+          8
+        ],
+        "team": {
+          "id": 4863,
+          "name": "TYLOO",
+          "url": "https://www.hltv.org/team/4863/tyloo",
+          "country": "China"
+        },
+        "special": "FACEIT Major 2018"
+      },
+      {
+        "placement": [
+          6,
+          7,
+          8
+        ],
+        "team": {
+          "id": 7532,
+          "name": "BIG",
+          "url": "https://www.hltv.org/team/7532/big",
+          "country": "Germany"
+        },
+        "special": "FACEIT Major 2018"
+      },
+      {
+        "placement": [
+          6,
+          7,
+          8
+        ],
+        "team": {
+          "id": 6094,
+          "name": "Vega Squadron",
+          "url": "https://www.hltv.org/team/6094/vega-squadron",
+          "country": "Russia"
+        },
+        "special": "FACEIT Major 2018"
+      },
+      {
+        "placement": [
+          9,
+          10,
+          11
+        ],
+        "team": {
+          "id": 6615,
+          "name": "OpTic",
+          "url": "https://www.hltv.org/team/6615/optic",
+          "country": "Denmark"
+        },
+        "special": ""
+      },
+      {
+        "placement": [
+          9,
+          10,
+          11
+        ],
+        "team": {
+          "id": 7020,
+          "name": "Spirit",
+          "url": "https://www.hltv.org/team/7020/spirit",
+          "country": "Russia"
+        },
+        "special": ""
+      },
+      {
+        "placement": [
+          9,
+          10,
+          11
+        ],
+        "team": {
+          "id": 7533,
+          "name": "North",
+          "url": "https://www.hltv.org/team/7533/north",
+          "country": "Denmark"
+        },
+        "special": ""
+      },
+      {
+        "placement": [
+          12,
+          13,
+          14
+        ],
+        "team": {
+          "id": 6211,
+          "name": "Renegades",
+          "url": "https://www.hltv.org/team/6211/renegades",
+          "country": "Australia"
+        },
+        "special": ""
+      },
+      {
+        "placement": [
+          12,
+          13,
+          14
+        ],
+        "team": {
+          "id": 6651,
+          "name": "Gambit",
+          "url": "https://www.hltv.org/team/6651/gambit",
+          "country": "Kazakhstan"
+        },
+        "special": ""
+      },
+      {
+        "placement": [
+          12,
+          13,
+          14
+        ],
+        "team": {
+          "id": 7157,
+          "name": "Rogue",
+          "url": "https://www.hltv.org/team/7157/rogue",
+          "country": "United States"
+        },
+        "special": ""
+      },
+      {
+        "placement": [
+          15,
+          16
+        ],
+        "team": {
+          "id": 5378,
+          "name": "Virtus.pro",
+          "url": "https://www.hltv.org/team/5378/virtuspro",
+          "country": "Poland"
+        },
+        "special": ""
+      },
+      {
+        "placement": [
+          15,
+          16
+        ],
+        "team": {
+          "id": 5929,
+          "name": "Space Soldiers",
+          "url": "https://www.hltv.org/team/5929/space-soldiers",
+          "country": "Turkey"
+        },
+        "special": ""
+      }
+    ]
+  },
+  "teams": {
+    "amount": 16,
+    "teams": [
+      {
+        "id": 6665,
+        "name": "Astralis",
+        "url": "https://www.hltv.org/team/6665/astralis",
+        "players": [
+          {
+            "id": 4954,
+            "name": "Xyp9x",
+            "url": "https://www.hltv.org/player/4954/Xyp9x",
+            "country": "Denmark"
+          },
+          {
+            "id": 7398,
+            "name": "dupreeh",
+            "url": "https://www.hltv.org/player/7398/dupreeh",
+            "country": "Denmark"
+          },
+          {
+            "id": 7412,
+            "name": "gla1ve",
+            "url": "https://www.hltv.org/player/7412/gla1ve",
+            "country": "Denmark"
+          },
+          {
+            "id": 7592,
+            "name": "device",
+            "url": "https://www.hltv.org/player/7592/device",
+            "country": "Denmark"
+          },
+          {
+            "id": 9032,
+            "name": "Magisk",
+            "url": "https://www.hltv.org/player/9032/Magisk",
+            "country": "Denmark"
+          }
+        ],
+        "qualifier": "ELEAGUE Major Boston"
+      },
+      {
+        "id": 7532,
+        "name": "BIG",
+        "url": "https://www.hltv.org/team/7532/big",
+        "players": [
+          {
+            "id": 136,
+            "name": "gob b",
+            "url": "https://www.hltv.org/player/136/gob%20b",
+            "country": "Germany"
+          },
+          {
+            "id": 5794,
+            "name": "tabseN",
+            "url": "https://www.hltv.org/player/5794/tabseN",
+            "country": "Germany"
+          },
+          {
+            "id": 5796,
+            "name": "tiziaN",
+            "url": "https://www.hltv.org/player/5796/tiziaN",
+            "country": "Germany"
+          },
+          {
+            "id": 7256,
+            "name": "nex",
+            "url": "https://www.hltv.org/player/7256/nex",
+            "country": "Germany"
+          },
+          {
+            "id": 11271,
+            "name": "smooya",
+            "url": "https://www.hltv.org/player/11271/smooya",
+            "country": "United Kingdom"
+          }
+        ],
+        "qualifier": "ELEAGUE Major Boston"
+      },
+      {
+        "id": 5005,
+        "name": "compLexity",
+        "url": "https://www.hltv.org/team/5005/complexity",
+        "players": [
+          {
+            "id": 8507,
+            "name": "stanislaw",
+            "url": "https://www.hltv.org/player/8507/stanislaw",
+            "country": "Canada"
+          },
+          {
+            "id": 8513,
+            "name": "yay",
+            "url": "https://www.hltv.org/player/8513/yay",
+            "country": "United States"
+          },
+          {
+            "id": 9043,
+            "name": "ANDROID",
+            "url": "https://www.hltv.org/player/9043/ANDROID",
+            "country": "Canada"
+          },
+          {
+            "id": 7810,
+            "name": "ShahZaM",
+            "url": "https://www.hltv.org/player/7810/ShahZaM",
+            "country": "United States"
+          },
+          {
+            "id": 7873,
+            "name": "dephh",
+            "url": "https://www.hltv.org/player/7873/dephh",
+            "country": "United Kingdom"
+          }
+        ],
+        "qualifier": "Americas Minor #1"
+      },
+      {
+        "id": 6651,
+        "name": "Gambit",
+        "url": "https://www.hltv.org/team/6651/gambit",
+        "players": [
+          {
+            "id": 334,
+            "name": "AdreN",
+            "url": "https://www.hltv.org/player/334/AdreN",
+            "country": "Kazakhstan"
+          },
+          {
+            "id": 735,
+            "name": "Dosia",
+            "url": "https://www.hltv.org/player/735/Dosia",
+            "country": "Russia"
+          },
+          {
+            "id": 964,
+            "name": "mou",
+            "url": "https://www.hltv.org/player/964/mou",
+            "country": "Kazakhstan"
+          },
+          {
+            "id": 8528,
+            "name": "Hobbit",
+            "url": "https://www.hltv.org/player/8528/Hobbit",
+            "country": "Kazakhstan"
+          },
+          {
+            "id": 8789,
+            "name": "mir",
+            "url": "https://www.hltv.org/player/8789/mir",
+            "country": "Russia"
+          }
+        ],
+        "qualifier": "ELEAGUE Major Boston"
+      },
+      {
+        "id": 5310,
+        "name": "HellRaisers",
+        "url": "https://www.hltv.org/team/5310/hellraisers",
+        "players": [
+          {
+            "id": 339,
+            "name": "ANGE1",
+            "url": "https://www.hltv.org/player/339/ANGE1",
+            "country": "Ukraine"
+          },
+          {
+            "id": 2131,
+            "name": "bondik",
+            "url": "https://www.hltv.org/player/2131/bondik",
+            "country": "Ukraine"
+          },
+          {
+            "id": 8574,
+            "name": "woxic",
+            "url": "https://www.hltv.org/player/8574/woxic",
+            "country": "Turkey"
+          },
+          {
+            "id": 8716,
+            "name": "DeadFox",
+            "url": "https://www.hltv.org/player/8716/DeadFox",
+            "country": "Hungary"
+          },
+          {
+            "id": 10449,
+            "name": "ISSAA",
+            "url": "https://www.hltv.org/player/10449/ISSAA",
+            "country": "Jordan"
+          }
+        ],
+        "qualifier": "CIS Minor"
+      },
+      {
+        "id": 5973,
+        "name": "Liquid",
+        "url": "https://www.hltv.org/team/5973/liquid",
+        "players": [
+          {
+            "id": 10394,
+            "name": "Twistzz",
+            "url": "https://www.hltv.org/player/10394/Twistzz",
+            "country": "Canada"
+          },
+          {
+            "id": 7687,
+            "name": "nitr0",
+            "url": "https://www.hltv.org/player/7687/nitr0",
+            "country": "United States"
+          },
+          {
+            "id": 8520,
+            "name": "NAF",
+            "url": "https://www.hltv.org/player/8520/NAF",
+            "country": "Canada"
+          },
+          {
+            "id": 8738,
+            "name": "EliGE",
+            "url": "https://www.hltv.org/player/8738/EliGE",
+            "country": "United States"
+          },
+          {
+            "id": 9217,
+            "name": "TACO",
+            "url": "https://www.hltv.org/player/9217/TACO",
+            "country": "Brazil"
+          }
+        ],
+        "qualifier": "ELEAGUE Major Boston"
+      },
+      {
+        "id": 4411,
+        "name": "NiP",
+        "url": "https://www.hltv.org/team/4411/nip",
+        "players": [
+          {
+            "id": 29,
+            "name": "f0rest",
+            "url": "https://www.hltv.org/player/29/f0rest",
+            "country": "Sweden"
+          },
+          {
+            "id": 39,
+            "name": "GeT_RiGhT",
+            "url": "https://www.hltv.org/player/39/GeT_RiGhT",
+            "country": "Sweden"
+          },
+          {
+            "id": 1146,
+            "name": "dennis",
+            "url": "https://www.hltv.org/player/1146/dennis",
+            "country": "Sweden"
+          },
+          {
+            "id": 9261,
+            "name": "Lekr0",
+            "url": "https://www.hltv.org/player/9261/Lekr0",
+            "country": "Sweden"
+          },
+          {
+            "id": 9278,
+            "name": "REZ",
+            "url": "https://www.hltv.org/player/9278/REZ",
+            "country": "Sweden"
+          }
+        ],
+        "qualifier": "Europe Minor #1"
+      },
+      {
+        "id": 7533,
+        "name": "North",
+        "url": "https://www.hltv.org/team/7533/north",
+        "players": [
+          {
+            "id": 8095,
+            "name": "aizy",
+            "url": "https://www.hltv.org/player/8095/aizy",
+            "country": "Denmark"
+          },
+          {
+            "id": 8394,
+            "name": "Kjaerbye",
+            "url": "https://www.hltv.org/player/8394/Kjaerbye",
+            "country": "Denmark"
+          },
+          {
+            "id": 9031,
+            "name": "valde",
+            "url": "https://www.hltv.org/player/9031/valde",
+            "country": "Denmark"
+          },
+          {
+            "id": 10264,
+            "name": "niko",
+            "url": "https://www.hltv.org/player/10264/niko",
+            "country": "Denmark"
+          },
+          {
+            "id": 7156,
+            "name": "MSL",
+            "url": "https://www.hltv.org/player/7156/MSL",
+            "country": "Denmark"
+          }
+        ],
+        "qualifier": "ELEAGUE Major Boston"
+      },
+      {
+        "id": 6615,
+        "name": "OpTic",
+        "url": "https://www.hltv.org/team/6615/optic",
+        "players": [
+          {
+            "id": 922,
+            "name": "Snappi",
+            "url": "https://www.hltv.org/player/922/Snappi",
+            "country": "Denmark"
+          },
+          {
+            "id": 2469,
+            "name": "cajunb",
+            "url": "https://www.hltv.org/player/2469/cajunb",
+            "country": "Denmark"
+          },
+          {
+            "id": 8783,
+            "name": "JUGi",
+            "url": "https://www.hltv.org/player/8783/JUGi",
+            "country": "Denmark"
+          },
+          {
+            "id": 8875,
+            "name": "gade",
+            "url": "https://www.hltv.org/player/8875/gade",
+            "country": "Denmark"
+          },
+          {
+            "id": 9078,
+            "name": "k0nfig",
+            "url": "https://www.hltv.org/player/9078/k0nfig",
+            "country": "Denmark"
+          }
+        ],
+        "qualifier": "Europe Minor #2"
+      },
+      {
+        "id": 6211,
+        "name": "Renegades",
+        "url": "https://www.hltv.org/team/6211/renegades",
+        "players": [
+          {
+            "id": 8248,
+            "name": "jkaem",
+            "url": "https://www.hltv.org/player/8248/jkaem",
+            "country": "Norway"
+          },
+          {
+            "id": 8771,
+            "name": "USTILO",
+            "url": "https://www.hltv.org/player/8771/USTILO",
+            "country": "Australia"
+          },
+          {
+            "id": 9069,
+            "name": "Nifty",
+            "url": "https://www.hltv.org/player/9069/Nifty",
+            "country": "United States"
+          },
+          {
+            "id": 4679,
+            "name": "jks",
+            "url": "https://www.hltv.org/player/4679/jks",
+            "country": "Australia"
+          },
+          {
+            "id": 8082,
+            "name": "AZR",
+            "url": "https://www.hltv.org/player/8082/AZR",
+            "country": "Australia"
+          }
+        ],
+        "qualifier": "Asia Minor #1"
+      },
+      {
+        "id": 7157,
+        "name": "Rogue",
+        "url": "https://www.hltv.org/team/7157/rogue",
+        "players": [
+          {
+            "id": 9258,
+            "name": "SicK",
+            "url": "https://www.hltv.org/player/9258/SicK",
+            "country": "United States"
+          },
+          {
+            "id": 9260,
+            "name": "vice",
+            "url": "https://www.hltv.org/player/9260/vice",
+            "country": "United States"
+          },
+          {
+            "id": 2644,
+            "name": "Hiko",
+            "url": "https://www.hltv.org/player/2644/Hiko",
+            "country": "United States"
+          },
+          {
+            "id": 7964,
+            "name": "cadiaN",
+            "url": "https://www.hltv.org/player/7964/cadiaN",
+            "country": "Denmark"
+          },
+          {
+            "id": 8745,
+            "name": "Rickeh",
+            "url": "https://www.hltv.org/player/8745/Rickeh",
+            "country": "Australia"
+          }
+        ],
+        "qualifier": "Americas Minor #2"
+      },
+      {
+        "id": 5929,
+        "name": "Space Soldiers",
+        "url": "https://www.hltv.org/team/5929/space-soldiers",
+        "players": [
+          {
+            "id": 150,
+            "name": "MAJ3R",
+            "url": "https://www.hltv.org/player/150/MAJ3R",
+            "country": "Turkey"
+          },
+          {
+            "id": 3021,
+            "name": "hardstyle",
+            "url": "https://www.hltv.org/player/3021/hardstyle",
+            "country": "Turkey"
+          },
+          {
+            "id": 7938,
+            "name": "XANTARES",
+            "url": "https://www.hltv.org/player/7938/XANTARES",
+            "country": "Turkey"
+          },
+          {
+            "id": 8575,
+            "name": "Calyx",
+            "url": "https://www.hltv.org/player/8575/Calyx",
+            "country": "Turkey"
+          },
+          {
+            "id": 9353,
+            "name": "paz",
+            "url": "https://www.hltv.org/player/9353/paz",
+            "country": "Turkey"
+          }
+        ],
+        "qualifier": "ELEAGUE Major Boston"
+      },
+      {
+        "id": 7020,
+        "name": "Spirit",
+        "url": "https://www.hltv.org/team/7020/spirit",
+        "players": [
+          {
+            "id": 9083,
+            "name": "COLDYY1",
+            "url": "https://www.hltv.org/player/9083/COLDYY1",
+            "country": "Ukraine"
+          },
+          {
+            "id": 12731,
+            "name": "somedieyoung",
+            "url": "https://www.hltv.org/player/12731/somedieyoung",
+            "country": "Ukraine"
+          },
+          {
+            "id": 8124,
+            "name": "DavCost",
+            "url": "https://www.hltv.org/player/8124/DavCost",
+            "country": "Russia"
+          },
+          {
+            "id": 8125,
+            "name": "Dima",
+            "url": "https://www.hltv.org/player/8125/Dima",
+            "country": "Russia"
+          },
+          {
+            "id": 9081,
+            "name": "S0tF1k",
+            "url": "https://www.hltv.org/player/9081/S0tF1k",
+            "country": "Russia"
+          }
+        ],
+        "qualifier": "CIS Minor"
+      },
+      {
+        "id": 4863,
+        "name": "TYLOO",
+        "url": "https://www.hltv.org/team/4863/tyloo",
+        "players": [
+          {
+            "id": 10263,
+            "name": "xccurate",
+            "url": "https://www.hltv.org/player/10263/xccurate",
+            "country": "Indonesia"
+          },
+          {
+            "id": 5187,
+            "name": "captainMo",
+            "url": "https://www.hltv.org/player/5187/captainMo",
+            "country": "China"
+          },
+          {
+            "id": 7026,
+            "name": "DD",
+            "url": "https://www.hltv.org/player/7026/DD",
+            "country": "China"
+          },
+          {
+            "id": 7131,
+            "name": "BnTeT",
+            "url": "https://www.hltv.org/player/7131/BnTeT",
+            "country": "Indonesia"
+          },
+          {
+            "id": 8605,
+            "name": "somebody",
+            "url": "https://www.hltv.org/player/8605/somebody",
+            "country": "China"
+          }
+        ],
+        "qualifier": "Asia Minor #2"
+      },
+      {
+        "id": 6094,
+        "name": "Vega Squadron",
+        "url": "https://www.hltv.org/team/6094/vega-squadron",
+        "players": [
+          {
+            "id": 1950,
+            "name": "tonyblack",
+            "url": "https://www.hltv.org/player/1950/tonyblack",
+            "country": "Russia"
+          },
+          {
+            "id": 7716,
+            "name": "chopper",
+            "url": "https://www.hltv.org/player/7716/chopper",
+            "country": "Russia"
+          },
+          {
+            "id": 8786,
+            "name": "jR",
+            "url": "https://www.hltv.org/player/8786/jR",
+            "country": "Ukraine"
+          },
+          {
+            "id": 8790,
+            "name": "hutji",
+            "url": "https://www.hltv.org/player/8790/hutji",
+            "country": "Russia"
+          },
+          {
+            "id": 9348,
+            "name": "crush",
+            "url": "https://www.hltv.org/player/9348/crush",
+            "country": "Ukraine"
+          }
+        ],
+        "qualifier": "ELEAGUE Major Boston"
+      },
+      {
+        "id": 5378,
+        "name": "Virtus.pro",
+        "url": "https://www.hltv.org/team/5378/virtuspro",
+        "players": [
+          {
+            "id": 317,
+            "name": "pashaBiceps",
+            "url": "https://www.hltv.org/player/317/pashaBiceps",
+            "country": "Poland"
+          },
+          {
+            "id": 5386,
+            "name": "byali",
+            "url": "https://www.hltv.org/player/5386/byali",
+            "country": "Poland"
+          },
+          {
+            "id": 7356,
+            "name": "MICHU",
+            "url": "https://www.hltv.org/player/7356/MICHU",
+            "country": "Poland"
+          },
+          {
+            "id": 9574,
+            "name": "snatchie",
+            "url": "https://www.hltv.org/player/9574/snatchie",
+            "country": "Poland"
+          },
+          {
+            "id": 165,
+            "name": "NEO",
+            "url": "https://www.hltv.org/player/165/NEO",
+            "country": "Poland"
+          }
+        ],
+        "qualifier": "ELEAGUE Major Boston"
+      }
+    ]
+  },
+  "location": {
+    "type": "UNKNOWN_LAN",
+    "name": "London, United Kingdom"
+  },
+  "mapPool": [
+    "CACHE",
+    "DUST2",
+    "INFERNO",
+    "MIRAGE",
+    "NUKE",
+    "OVERPASS",
+    "TRAIN"
+  ]
+}
